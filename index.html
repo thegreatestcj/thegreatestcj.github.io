@@ -93,10 +93,10 @@
 
         .hero-photo {
             width: 180px;
-            height: 180px;
+            height: 220px;
             border-radius: 12px;
             object-fit: cover;
-            object-position: center top;
+            object-position: center 20%;
             box-shadow: var(--shadow);
         }
 
@@ -378,17 +378,21 @@
     <!-- ====== PROFILE ====== -->
     <div class="hero">
         <!-- TODO: Replace with your photo file -->
-        <img src="assets/img/profile.jpg" alt="Your Name" class="hero-photo">
+        <img src="assets/img/profile.jpg" alt="Chujun Tang" class="hero-photo">
         <div class="hero-info">
-            <h1>Your Name</h1>
-            <div class="affiliation">M.S. in Computer Science, Brown University</div>
+            <h1>Chujun Tang</h1>
+            <div class="affiliation">Incoming M.S. in Computer Science, Brown University</div>
             <p class="bio">
-                I am a Master's student in Computer Science at Brown University,
+                I am an incoming Master's student (Fall 26") in Computer Science at Brown University, currently
                 working with the <a href="https://visual.cs.brown.edu/" style="color:var(--accent)">Visual Computing Group</a>.
                 My research focuses on <strong>physics-aware video generation</strong>,
                 <strong>world models</strong>, and <strong>3D generation</strong>.
                 I am interested in understanding how generative models learn implicit
                 representations of the physical world.
+            </p>
+            <p class="bio">
+                Before pivoting to CS, I studied comparative literature. I am also a part-time game developer and 3D environment artist
+                working with Blender. Generally speaking, I am passionate about everything related to content creation and world building.
             </p>
             <p class="bio">
                 Previously, I received my B.S. in Computer Science and Mathematics
@@ -400,17 +404,9 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M3 4a2 2 0 00-2 2v1.161l8.441 4.221a1.25 1.25 0 001.118 0L19 7.162V6a2 2 0 00-2-2H3z"/><path d="M19 8.839l-7.77 3.885a2.75 2.75 0 01-2.46 0L1 8.839V14a2 2 0 002 2h14a2 2 0 002-2V8.839z"/></svg>
                     Email
                 </a>
-                <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 110-14 7 7 0 010 14zm0-11.5a4.5 4.5 0 100 9 4.5 4.5 0 000-9zM.21 7L12 0l11.79 7v4H18V8.21L12 4.42 6 8.21V11H.21V7z"/></svg>
-                    Scholar
-                </a>
                 <a href="https://github.com/thegreatestcj" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
                     GitHub
-                </a>
-                <a href="https://x.com/YOUR_HANDLE" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-                    Twitter
                 </a>
                 <a href="assets/pdf/CV.pdf" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.5 2A1.5 1.5 0 003 3.5v13A1.5 1.5 0 004.5 18h11a1.5 1.5 0 001.5-1.5V7.621a1.5 1.5 0 00-.44-1.06l-4.12-4.122A1.5 1.5 0 0011.378 2H4.5zm4.75 11.25a.75.75 0 001.5 0v-2.546l.943.942a.75.75 0 101.06-1.06l-2.22-2.22a.75.75 0 00-1.06 0l-2.22 2.22a.75.75 0 101.06 1.06l.937-.938v2.542z" clip-rule="evenodd"/></svg>
@@ -422,18 +418,14 @@
 
     <!-- ====== NEWS ====== -->
     <section>
-        <h2>News</h2>
+        <h2>Recent</h2>
         <ul class="news-list">
             <li>
-                <span class="news-date">Mar 2026</span>
+                <span class="news-date">Feb 2026</span>
                 <span>Submitted our paper on physics-aware video generation to <strong>ECCV 2026</strong>.</span>
             </li>
             <li>
-                <span class="news-date">Aug 2024</span>
-                <span>Started M.S. in Computer Science at <strong>Brown University</strong>.</span>
-            </li>
-            <li>
-                <span class="news-date">May 2024</span>
+                <span class="news-date">Dec 2025</span>
                 <span>Graduated from Washington University in St. Louis with B.S. in CS and Mathematics.</span>
             </li>
             <!-- Add more news items here -->
@@ -451,12 +443,10 @@
             <div class="pub-authors">
                 <span class="me">Chujun Tang</span>
             </div>
-            <div class="pub-venue">Under Review, ECCV 2026</div>
+            <div class="pub-venue">Coming Soon</div>
             <span class="pub-badge">Preprint</span>
             <div class="pub-links">
                 <a href="#">Paper</a>
-                <a href="#">Code</a>
-                <a href="#">Project Page</a>
             </div>
         </div>
 
